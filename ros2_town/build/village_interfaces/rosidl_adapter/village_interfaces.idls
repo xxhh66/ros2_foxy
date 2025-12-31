@@ -1,0 +1,3 @@
+/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_interfaces/rosidl_adapter/village_interfaces:msg/Novel.idl
+/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_interfaces/rosidl_adapter/village_interfaces:srv/BorrowMoney.idl
+/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_interfaces/rosidl_adapter/village_interfaces:srv/SellNovel.idl

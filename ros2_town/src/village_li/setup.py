@@ -23,9 +23,13 @@ setup(
             "li1_node = village_li.li1:main",
             "li2_node = village_li.li2:main",
             "li3_node = village_li.li3:main",
+            # 话题发布和订阅
             "li4_node = village_li.li4:main",
             "li5_node = village_li.li5:main",
             "li6_node = village_li.li6:main",
+            # 服务接口:服务端和客户端，li7是服务端，li8是客户端
+            "li7_node = village_li.li7:main",
+            "li8_node = village_li.li8:main",
         ],
     },
 )

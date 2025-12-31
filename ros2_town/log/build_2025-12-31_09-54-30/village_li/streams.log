@@ -1,0 +1,31 @@
+[0.247s] Invoking command in '/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/src/village_li': CMAKE_PREFIX_PATH=/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_interfaces:/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_wang PYTHONPATH=/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/python3.8/site-packages:/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_interfaces/lib/python3.8/site-packages:/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/build install --record /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data
+[0.323s] running egg_info
+[0.323s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.324s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.324s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.324s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.324s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.339s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.339s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.339s] running build
+[0.339s] running build_py
+[0.340s] copying village_li/li8.py -> /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/build/lib/village_li
+[0.340s] running install
+[0.340s] running install_lib
+[0.341s] copying /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/build/lib/village_li/li8.py -> /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/python3.8/site-packages/village_li
+[0.341s] byte-compiling /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/python3.8/site-packages/village_li/li8.py to li8.cpython-38.pyc
+[0.342s] running install_data
+[0.342s] running install_egg_info
+[0.343s] removing '/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info' (and everything under it)
+[0.343s] Copying ../../build/village_li/village_li.egg-info to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info
+[0.343s] running install_scripts
+[0.351s] Installing li1_node script to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/village_li
+[0.351s] Installing li2_node script to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/village_li
+[0.351s] Installing li3_node script to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/village_li
+[0.352s] Installing li4_node script to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/village_li
+[0.352s] Installing li5_node script to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/village_li
+[0.352s] Installing li6_node script to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/village_li
+[0.352s] Installing li7_node script to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/village_li
+[0.352s] Installing li8_node script to /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/village_li
+[0.353s] writing list of installed files to '/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/install.log'
+[0.365s] Invoked command in '/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/src/village_li' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_interfaces:/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_wang PYTHONPATH=/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/python3.8/site-packages:/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_interfaces/lib/python3.8/site-packages:/home/ubuntu20/code/markdown/ros2_foxy/ros2_town/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/build install --record /home/ubuntu20/code/markdown/ros2_foxy/ros2_town/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data
