@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "village_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ubuntu20/code/markdown/ros2_foxy/charpter4/build/village_interfaces/village_interfaces__py",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "village_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ec4ac9ecc028bbdbb42e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces-f74a406fa5963f46b5bb.json",
+					"name" : "village_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__cpp-a4ffd5072d8cd6bde92c.json",
+					"name" : "village_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "village_interfaces__py::@12924cc67a50b8ed5749",
+					"jsonFile" : "target-village_interfaces__py-8c74c5fd3241df07e13f.json",
+					"name" : "village_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__python-e9c441e9ee44ba418af4.json",
+					"name" : "village_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_generator_c-3cb4d59199ca6cd377f5.json",
+					"name" : "village_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_c-c2be375207592832489c.json",
+					"name" : "village_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_c__pyext-fb0c2792f6dcecf48a00.json",
+					"name" : "village_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_cpp-64ccc80c2edff224f7e8.json",
+					"name" : "village_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_fastrtps_c-8043d089d771cfe17687.json",
+					"name" : "village_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_fastrtps_c__pyext-46517a3d31d0df61e1b7.json",
+					"name" : "village_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_fastrtps_cpp-e484918cc91cbc101c27.json",
+					"name" : "village_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_introspection_c-3994933caf7cae0df8ec.json",
+					"name" : "village_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_introspection_c__pyext-cbd149d23b08ffd849ba.json",
+					"name" : "village_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_introspection_cpp-e52a56745b60d22fc4e9.json",
+					"name" : "village_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces_uninstall-2c8c85af65846d07a16d.json",
+					"name" : "village_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu20/code/markdown/ros2_foxy/charpter4/build/village_interfaces",
+		"source" : "/home/ubuntu20/code/markdown/ros2_foxy/charpter4/src/village_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

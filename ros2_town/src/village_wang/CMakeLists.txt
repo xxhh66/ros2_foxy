@@ -18,6 +18,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+# 查询自定义接口包
+find_package(village_interfaces REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -49,5 +51,15 @@ add_executable(wang3_node src/wang3.cpp)
 ament_target_dependencies(wang3_node rclcpp)
 install(TARGETS
   wang3_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+# 使用自定义接口的节点,测试
+add_executable(wang4_node src/wang4.cpp)
+ament_target_dependencies(wang4_node 
+  rclcpp
+  village_interfaces
+)
+install(TARGETS
+  wang4_node
   DESTINATION lib/${PROJECT_NAME}
 )
