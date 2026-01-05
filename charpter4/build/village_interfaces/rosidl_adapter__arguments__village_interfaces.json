@@ -1,8 +1,0 @@
-{
-  "package_name": "village_interfaces",
-  "non_idl_tuples": [
-    "/home/ubuntu20/code/markdown/ros2_foxy/charpter4/src/village_interfaces:msg/Novel.msg",
-    "/home/ubuntu20/code/markdown/ros2_foxy/charpter4/src/village_interfaces:srv/BorrowMoney.srv",
-    "/home/ubuntu20/code/markdown/ros2_foxy/charpter4/src/village_interfaces:srv/SellNovel.srv"
-  ]
-}

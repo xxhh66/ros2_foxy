@@ -21,7 +21,7 @@ public:
         RCLCPP_INFO(this->get_logger(), "大家好，我是单身狗%s.", name.c_str());
         // 创建一个订阅者来订阅李四写的小说，通过名字sexy_girl
         sub_novel = this->create_subscription<std_msgs::msg::String>("sexy_girl", 10, std::bind(&SingleDogNode::topic_callback, this, _1));
-        // 创建发布者
+        // 创建发布者:用于给李四钱
         pub_money = this->create_publisher<std_msgs::msg::UInt32>("sexy_girl_money", 10);
         // 实例化回调组
         callback_group_service_ = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
