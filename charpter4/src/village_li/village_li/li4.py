@@ -5,6 +5,9 @@ from rclpy.node import Node
 from std_msgs.msg import String,UInt32
 # 从村庄接口服务类中导入借钱服务
 from village_interfaces.srv import BorrowMoney
+# 自定义话题类型
+from sensor_msgs.msg import Image
+from village_interfaces.msg import Novel
 
 class WriterNode(Node):
     """
@@ -14,7 +17,13 @@ class WriterNode(Node):
         super().__init__(name)
         self.get_logger().info("大家好，我是%s,我是一名作家！" % name)
         # 创建并初始化发布者成员属性pubnovel
-        self.pubnovel = self.create_publisher(String,"sexy_girl", 10) 
+        # self.pubnovel = self.create_publisher(String,"sexy_girl", 10) 
+        self.pubnovel = self.create_publisher(Novel,"sexy_girl", 10) 
+
+        #声明一个空的图像
+        self.image = Image()
+        # 开始获取图片
+        self.create_subscription(Novel,"image",self.recv_image_callback,10)
 
         # 创建定时器成员属性timer
         self.i = 0 # i 是个计数器，用来算章节编号的
@@ -28,6 +37,9 @@ class WriterNode(Node):
         
         # 创建向外借钱服务
         self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
+    
+    def recv_image_callback(self,image):
+        self.image = image
 
     def borrow_money_callback(self,request, response):
         """
@@ -53,10 +65,17 @@ class WriterNode(Node):
         """
         定时器回调函数，用于发布小说章节
         """
-        msg = String()
-        msg.data = '第%d回：潋滟湖 %d 次偶遇胡艳娘' % (self.i,self.i)
+        # msg = String()
+        # msg.data = '第%d回：潋滟湖 %d 次偶遇胡艳娘' % (self.i,self.i)
+        # self.pubnovel.publish(msg)  #将小说内容发布出去
+        # self.get_logger().info('李四:我发布了艳娘传奇："%s"' % msg.data)    #打印一下发布的数据，供我们看
+        # self.i += 1 #章节编号+1
+        msg = Novel()
+        msg.content = '第%d回：潋滟湖 %d 次偶遇胡艳娘' % (self.i,self.i)
+        msg.image = self.image
         self.pubnovel.publish(msg)  #将小说内容发布出去
-        self.get_logger().info('李四:我发布了艳娘传奇："%s"' % msg.data)    #打印一下发布的数据，供我们看
+        self.get_logger().info('李四:我发布了艳娘传奇："%s"' % msg.content)    #打印一下发布的数据，供我们看
+        self.get_logger().info('李四:并且为艳娘传奇配上了插图，长："%d"，宽：%d' % (msg.image.height,msg.image.width))    #打印一下发布的插图尺寸，供我们看
         self.i += 1 #章节编号+1
 
     def recv_money_callback(self,money):
